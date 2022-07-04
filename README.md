@@ -17,25 +17,22 @@ The application supports the following API routes:
 
 Send GET request to mailbox
 ```
-
 GET /emails/<str:mailbox>
 ```
 
 Send GET request to an email
 ```
-
 GET /emails/<int:email_id>
 ```
 
 Send POST request to send an email
 ```
-
 POST /emails
 ```
+
 Mark an email as read/unread or as archived/unarchived
 ```
 PUT /emails/<int:email_id>
-
 ```
 
 
