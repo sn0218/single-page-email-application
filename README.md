@@ -49,7 +49,7 @@ PUT /emails/<int:email_id>
 Specification
 Using JavaScript, HTML, and CSS, complete the implementation of your single-page-app email client inside of inbox.js (and not additional or other files; for grading purposes, we’re only going to be considering inbox.js!). You must fulfill the following requirements:
 
-- **Send Mail: ** When a user submits the email composition form, add JavaScript code to actually send the email.
+- **Send Mail:** When a user submits the email composition form, add JavaScript code to actually send the email.
     - You’ll likely want to make a POST request to /emails, passing in values for recipients, subject, and body.
     - Once the email has been sent, load the user’s sent mailbox.
 - **Mailbox:** When a user visits their Inbox, Sent mailbox, or Archive, load the appropriate mailbox.
