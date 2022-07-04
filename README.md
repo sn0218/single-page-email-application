@@ -1,5 +1,8 @@
 # Single-page email application
 
+![電影與電視 4_7_2022 23_10_03](https://user-images.githubusercontent.com/48129546/177181467-b453f859-afe7-48ca-b6c4-722eb11137f1.png)
+
+
 ## Description
 The single-page email application is written in Python Django framework with javascript. 
 The mail app simply includes 3 mailboxs - Inbox, Sent and Archive.
