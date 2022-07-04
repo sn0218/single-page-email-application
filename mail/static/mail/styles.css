@@ -1,0 +1,38 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-row {
+    display: flex;
+    border-style: solid;
+    border-width: thin;
+    border-color: #A9A9A9;
+    padding: 10px;
+}
+
+.email-row:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.email-row.read{
+    background: lightgray;
+}
+
+.email-row.unread{
+    background: white;
+
+}
+
+.inner {
+    flex: 1 1 auto;
+    width: 33%;
+}
+
+#email-title-row {
+    background-color: aliceblue;
+}
+
+#reply-button {
+    margin-right: 15px;
+}
